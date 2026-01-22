@@ -63,6 +63,13 @@ build CMakeFiles/SpaceInvaders.dir/src/Bullet.cpp.o: CXX_COMPILER__SpaceInvaders
   OBJECT_DIR = CMakeFiles/SpaceInvaders.dir
   OBJECT_FILE_DIR = CMakeFiles/SpaceInvaders.dir/src
 
+build CMakeFiles/SpaceInvaders.dir/src/FrameBuffer.cpp.o: CXX_COMPILER__SpaceInvaders_unscanned_Debug /Users/kuimovmihail/Documents/GitHub/space_invaders/src/FrameBuffer.cpp || cmake_object_order_depends_target_SpaceInvaders
+  DEP_FILE = CMakeFiles/SpaceInvaders.dir/src/FrameBuffer.cpp.o.d
+  FLAGS = -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/kuimovmihail/Documents/GitHub/space_invaders/src -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/SpaceInvaders.dir
+  OBJECT_FILE_DIR = CMakeFiles/SpaceInvaders.dir/src
+
 build CMakeFiles/SpaceInvaders.dir/src/Game.cpp.o: CXX_COMPILER__SpaceInvaders_unscanned_Debug /Users/kuimovmihail/Documents/GitHub/space_invaders/src/Game.cpp || cmake_object_order_depends_target_SpaceInvaders
   DEP_FILE = CMakeFiles/SpaceInvaders.dir/src/Game.cpp.o.d
   FLAGS = -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -fcolor-diagnostics
@@ -92,7 +99,7 @@ build CMakeFiles/SpaceInvaders.dir/src/main.cpp.o: CXX_COMPILER__SpaceInvaders_u
 #############################################
 # Link the executable SpaceInvaders
 
-build SpaceInvaders: CXX_EXECUTABLE_LINKER__SpaceInvaders_Debug CMakeFiles/SpaceInvaders.dir/src/Alien.cpp.o CMakeFiles/SpaceInvaders.dir/src/Bullet.cpp.o CMakeFiles/SpaceInvaders.dir/src/Game.cpp.o CMakeFiles/SpaceInvaders.dir/src/Player.cpp.o CMakeFiles/SpaceInvaders.dir/src/main.cpp.o | /opt/homebrew/lib/libsfml-graphics.3.0.2.dylib /opt/homebrew/lib/libsfml-window.3.0.2.dylib /opt/homebrew/lib/libsfml-system.3.0.2.dylib
+build SpaceInvaders: CXX_EXECUTABLE_LINKER__SpaceInvaders_Debug CMakeFiles/SpaceInvaders.dir/src/Alien.cpp.o CMakeFiles/SpaceInvaders.dir/src/Bullet.cpp.o CMakeFiles/SpaceInvaders.dir/src/FrameBuffer.cpp.o CMakeFiles/SpaceInvaders.dir/src/Game.cpp.o CMakeFiles/SpaceInvaders.dir/src/Player.cpp.o CMakeFiles/SpaceInvaders.dir/src/main.cpp.o | /opt/homebrew/lib/libsfml-graphics.3.0.2.dylib /opt/homebrew/lib/libsfml-window.3.0.2.dylib /opt/homebrew/lib/libsfml-system.3.0.2.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk
   LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/lib  /opt/homebrew/lib/libsfml-graphics.3.0.2.dylib  /opt/homebrew/lib/libsfml-window.3.0.2.dylib  /opt/homebrew/lib/libsfml-system.3.0.2.dylib
   OBJECT_DIR = CMakeFiles/SpaceInvaders.dir
